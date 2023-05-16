@@ -65,6 +65,7 @@ body {
   border-radius: 5px;
   font-size: larger;
   padding: 10px;
+  text-transform: capitalize;
 }
 
 .score {
@@ -77,6 +78,7 @@ body {
   border-radius: 5px;
   font-size: larger;
   padding: 10px;
+  text-transform: capitalize;
 }
 
 .submit {

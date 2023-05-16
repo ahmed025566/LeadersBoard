@@ -1,18 +1,17 @@
 import './index.css';
-import addScore from './modules/addScore.js';
-import displayData from './modules/display.js';
-import { array, getFromStorage, saveToStorage } from './modules/storage.js';
+import getScore from './modules/getScore.js';
+import postScore from './modules/postScore.js';
 
 const submit = document.querySelector('.submit');
-
+const refresh = document.querySelector('.refresh');
 submit.addEventListener('click', (e) => {
   e.preventDefault();
-  addScore();
-  saveToStorage(array);
-  displayData();
+  postScore();
 });
 
+refresh.addEventListener('click', () => {
+  getScore();
+});
 window.addEventListener('DOMContentLoaded', () => {
-  getFromStorage();
-  displayData();
+  getScore();
 });

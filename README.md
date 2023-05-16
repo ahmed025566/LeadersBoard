@@ -51,9 +51,9 @@
 
 > In this project you can see that it has the following
 
-- It has a function to add a new score to the array
-- It has a function to add data to the local storage.
-- It has a function to display the data.
+- It has a function (postScore) to send the data to the api and to empty the input fields.
+- It has a function (getScore) to get the data from the api and to display that data into the page.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
@@ -120,7 +120,7 @@ Using Github Pages
 
 > The following are the future features that will be added to the project.
 
-- [ ] **[]**
+- [ ] **[I-Will-Change-SOME-Styles]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
