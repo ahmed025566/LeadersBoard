@@ -53,6 +53,8 @@
 
 - It has a function (postScore) to send the data to the api and to empty the input fields.
 - It has a function (getScore) to get the data from the api and to display that data into the page.
+- It has a function to save the input filelds values whenever the user type or remove.
+- It has a function to fill the input fields from the local storage.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,7 +122,7 @@ Using Github Pages
 
 > The following are the future features that will be added to the project.
 
-- [ ] **[I-Will-Change-SOME-Styles]**
+- [ ] **[]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
